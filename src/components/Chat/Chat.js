@@ -7,7 +7,7 @@ import Input from "../Input/Input";
 import Messages from "../messages/messages";
 import "./Chat.css";
 
-const socket = io("localhost:5000");
+const socket = io(process.env.REACT_APP_BACKEND_URL ||"localhost:5000");
 function Chat() {
   const location = useLocation();
   const [name, setName] = useState("");
