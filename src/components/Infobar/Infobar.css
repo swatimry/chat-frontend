@@ -1,0 +1,31 @@
+.outerdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #6f00ff;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+}
+.leftcont {
+  display: flex;
+  background: transparent;
+}
+.rightcont {
+  background: transparent;
+}
+h3 {
+  background: transparent;
+  color: white;
+  padding-left: 20%;
+}
+a {
+  background: transparent;
+}
+.icon {
+  background: transparent;
+  color: white;
+  width: 20px;
+  height: 50px;
+  margin-right: 20px;
+}
